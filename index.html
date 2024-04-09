@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf9b0403c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+              <img src="images/logo.png" class="logo">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Second Year Engineering Student</p>
+                <h1>Hi,I'm<span> Haripriya</span><br> Agrawal From PICT</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--About Section -->
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\about.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about_me">
+                         Hello! I'm Haripriya Agrawal, a second-year IT Engineering student at PICT Pune with a
+                         passion for web development and UI/UX design. 
+                        Through my coursework and personal projects, I'm constantly exploring the dynamic intersection of
+                         technology and design, aiming to create engaging digital experiences.
+                        Looking ahead, I'm torn between pursuing a master's degree in Human-Computer Interaction (HCI) to delve deeper 
+                        into user-centric technology or opting for an MBA to understand the business side of technology. 
+                        Regardless of the path I choose, my goal remains the same: to leverage technology to enhance human 
+                        experiences and make a positive impact on the world. Join me on this journey of learning, growth, and 
+                        innovation in the digital realm!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p><div class="tab-links active-link " onclick="opentab('skills')">Skills</div></p>
+                        <p><div class="tab-links" onclick="opentab('experience')">Experience </div></p>
+                        <p><div class="tab-links" onclick="opentab('education')">Education</div></p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>2020</span><br>Completed 10th Std from Blue Rdige Public School</li>
+                            <li><span>2022</span><br>Completed 12th in PCM from Bharati VidyaPeeth School</li>
+                            <li><span>2024</span><br>Pursuing BE-IT</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience"> 
+                        <ul>
+                            <li><span>TEDxPICT - Jharokha</span><br>Volunteered in Design,Curations and Operations Teams</li>
+                            <li><span>TEDxPICT 2025</span><br>Head of Design</li>
+                            <li><span>Internship at Bharat Intern</span><br>Virtual Internship in Web Development </li>
+
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- -------------------Services-------------------------- -->
+
+    <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Specializing in front-end development, I offer expertly crafted designs and
+                     user interfaces tailored to your unique vision. With a focus on responsiveness 
+                     and usability, I bring your website to life with engaging visuals and intuitive
+                      navigation, ensuring a memorable online experience for your visitors.</p>
+                      <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>Dedicated to enhancing user experiences, my UI/UX services combine aesthetic appeal 
+                    with seamless functionality. Through meticulous design and intuitive interfaces, I
+                     transform concepts into engaging digital experiences, prioritizing user satisfaction
+                      and interaction at every stage of development.</p>
+                      <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-face-smile"></i>
+                <h2>App Development</h2>
+                <p> In app development, I specialize in creating sleek, user-friendly interfaces that seamlessly
+                     integrate functionality with aesthetics. From wireframing to prototyping, I focus on 
+                     crafting intuitive experiences that elevate your app's usability and engagement, ensuring
+                      a seamless journey for your users from start to finish.
+                    </p>
+                    <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- -----------Portfolio----------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="works">
+                <div class="work">
+                   <img src="images\work.jpg" >
+                   <div class="layer">
+                    <h2>HERA-The Greek Goddess</h2>
+                    <p>Hera, the queen of the gods in Greek mythology, embodies power,
+                         sovereignty, and matrimony, often depicted with regal demeanor
+                          and a peacock, symbolizing her majesty.</p>
+                          <a href="#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                    <img src="images\work1.png" >
+                    <div class="layer">
+                        <h2>Syaahi-Ink</h2>
+                        <p>Ink: a fluid essence of creativity, bridging the realms
+                             of imagination and reality with its transformative touch 
+                             upon the blank canvas of existence.</p>
+                              <a href="#"><i class="fa-solid fa-link"></i></a>
+                       </div>
+                 </div>
+                 <div class="work">
+                    <img src="images\work2.png" >
+                    <div class="layer">
+                        <h2>Fall of longings</h2>
+                        <p>In the fall of longings, whispered dreams surrender to the quiet
+                             embrace of acceptance, as desires wane into the gentle melancholy
+                              of letting go.</p>
+                              <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                       </div>
+                 </div>
+
+            </div>
+
+            <div >
+                <a href="#" class="btn">See More</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- --------------Contact-------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"Contact Me></h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>Agrawalharipriya@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8805544500</p>
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                            
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            
+                        </a>
+
+
+                    </div>
+
+
+                    <a href="cv-template.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">Copyright @ Haripriya.co . Made with <i class="fa-solid fa-heart"></i> </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- -----------------Javascript------------------ -->
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+                 for(tablink of tablinks)
+                 {
+                    tablink.classList.remove("active-link");
+                 }
+
+                 for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                 }
+
+                 event.currentTarget.classList.add("active-link");
+                 document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
